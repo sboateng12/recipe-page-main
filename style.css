@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  margin: 25px;
+  padding: 50px;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 96%;
+  height: 30%;
+  margin: 10px;
+  border-radius: 15px;
+}
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Young serif", serif;
+  margin: 10px;
+}
+p {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+  font-family: "Outfit", sans-serif;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+.prep-time h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: 16px;
+  margin-bottom: 0;
+  padding-left: 25px;
+  font-family: "Outfit", sans-serif;
+}
+.prep-time ul {
+  color: hsl(30, 10%, 34%);
+  padding: 3px;
+  padding-left: 40px;
+  font-family: "Outfit", sans-serif;
+}
+
+.prep-time li {
+  padding-left: 16px;
+}
+
+.prep-time ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ing h2 {
+  color: hsl(14, 45%, 36%);
+  padding-left: 10px;
+  font-family: "Young serif", serif;
+}
+
+.ing ul {
+  color: hsl(30, 10%, 34%);
+  padding-left: 25px;
+  font-family: "Outfit", sans-serif;
+}
+
+.ing ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.ing li {
+  padding-left: 18px;
+}
+hr {
+  color: hsl(30, 18%, 87%);
+  margin-top: 25px;
+}
+.inst h2 {
+  color: hsl(14, 45%, 36%);
+  padding-left: 10px;
+  font-family: "Young serif", serif;
+  margin-top: 25px;
+}
+
+.inst ol {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+  padding-left: 24px;
+  font-family: "Outfit", sans-serif;
+}
+.inst li {
+  padding-left: 16px;
+}
+
+.inst li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.nut h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young serif", serif;
+  margin-top: 25px;
+}
+
+.nut p {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+
+  font-size: 16px;
+}
+table {
+  border-collapse: collapse;
+  width: 100px;
+  margin-left: 20px;
+}
+
+tr {
+  border-bottom: 0.5px solid;
+}
+th {
+  padding-left: 30px;
+  padding: 20px;
+  color: hsl(30, 10%, 34%);
+  text-align: left;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  padding: 0 200px 0 180px;
+}
